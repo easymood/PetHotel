@@ -1,0 +1,334 @@
+/*search.css*/
+.searchPage .main-wrap {margin:0 234px 0 0;}
+.searchPage .col-extra {margin-left:-224px;width:224px;}
+.navigation {padding-top: 10px;}
+.navigation .search_nav .select_item{
+	position:relative;
+	z-index:10;
+    height: 30px;
+    line-height: 30px;
+    clear: both;
+    overflow: hidden;
+    margin-left: 60px;
+}
+.navigation .search_nav .select_item li{
+    float: left;
+    margin-right: 40px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navigation .search_nav .select_item li.on{
+    border: 2px solid #009FE9;
+	background: white;  
+}
+.navigation .search_nav .select_container{
+    margin-top: -2px; 
+	border-top: 2px solid #009FE9;
+    padding: 10px;
+}
+.select_container .search_form{
+    padding-bottom: 10px;
+}
+.search_form  .search_button img{
+    margin-bottom: 4px;
+}
+.search_form  .hot_search{
+    margin: 10px 10px 0;
+}
+.select_container .suggest_area{
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 10px;
+}
+.select_container .suggest_area span a{color:#0092d2;}
+.select_container .select_pannel:after{
+    clear: both;
+    zoom: 1;
+    height: 0;
+    display: block;
+    content: "";
+}
+.select_container .select_pannel dl:after{clear: both;
+    zoom: 1;
+    height: 0;
+    display: block;
+    content: "";}
+.select_container .select_pannel dl{
+    padding-left: 60px;
+    margin: 10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.select_pannel dl dt,.select_pannel dl dd,.select_pannel dd ul,.select_pannel dd li{float:left;display:inline;}
+.select_pannel dd ul {
+	margin-left: -6px;
+	padding: 2px 0;
+}
+.select_pannel dd li{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	_overflow: hidden;
+	height: 26px;
+	line-height: 26px;
+}
+.select_pannel dd li a{
+    display: block;  
+    margin: 0; 
+	white-space: nowrap;
+	color: #009FE9;
+    padding: 0 10px;
+}
+.select_container .select_pannel dl dt{
+    width: 60px; 
+	margin-left: -60px; 
+	overflow: hidden; 
+	text-align: right;  
+    line-height: 2.5;
+	white-space: nowrap;
+}
+.select_container .select_pannel dl dd{
+    width: 621px;  padding-right: 45px;
+}
+.select_pannel  .sort_wrap{
+    clear: both;
+    border: 1px solid #b9b9b9;
+    padding: 5px;
+    background: #f5fafd;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.select_pannel  .sort_wrap dl{
+    margin: 0;
+    border: 0;
+}
+.select_pannel  .sort_wrap dd.sort_title{
+    width: 80%;
+    padding-left: 10px;
+}
+.select_pannel  .sort_wrap dd.sort_title a{
+    display: block;
+    background:url("../images/great_icon.gif") no-repeat 100% 50%;
+    float: left;
+    margin: 9px 2px;
+    text-decoration: underline;
+    width: 77px;
+}
+.select_pannel dd .selected {
+  
+    position: relative;
+    background: #0092d2;
+    padding-right: 10px;
+}
+.select_pannel dd .selected a {color:#FFF;}
+.select_pannel dd .selected b{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    right: 5px;
+    top: 10px;
+	background:url("../images/small_close_icon.gif") no-repeat 0 0;
+}
+.select_pannel  .sort_wrap dd.sort_title a.last{background:none;}
+.select_pannel  .sort_wrap dd.sort_list_item{
+    width: 80%;
+  
+}
+.select_pannel  .sort_wrap dd ul{}
+.select_pannel  .sort_wrap dd li{}
+.select_container .show_more{
+    clear: both;
+    position: relative;  
+    width: 726px;  
+	height: 5px; 
+	margin: -1px 0 18px 0;  
+    border-bottom: 1px solid #b9b9b9;    
+    background: #f5fafd;
+	
+}
+.select_container .show_more .inner{
+    display: block;
+    border-top: 1px solid white;
+}
+.select_container .show_more .inner a{
+    overflow: hidden;
+	display: block;  
+    width: 117px;  
+    height: 21px; 
+	margin: 4px auto 0; 
+	text-align: center; 
+	white-space: nowrap; 
+	color: #666; 
+	outline: none; 
+	text-decoration: none;
+	_position: absolute;
+    _margin-left: 300px;
+	background:url("../images/show_more.gif") 0 0 no-repeat;
+	
+}
+.select_container .show_more .inner a span,.select_container .show_more .inner a.close span{
+    display: inline-block; 
+	overflow: hidden;  
+    height: 21px;  
+	margin: 0 auto; 
+	padding-left: 10px;
+    width: 117px;	
+	padding-top: 1px 9;
+    _padding-top: 0;
+	background:url("../images/spiderGlobal.gif") 36px -658px no-repeat;
+	
+}
+.select_container .show_more .inner a.open span{
+	background-position:31px -674px;
+}
+/*search option*/
+.search_option {
+    padding: 10px 0;
+}
+.search_option .innerWrap{
+    width: 746px;
+    height: 34px;
+    border-top: 1px solid #CDCDCD;
+    background: #f6f6f6;
+    clear: both;
+    line-height: 34px;
+}
+.search_option .order{
+    float: left;
+    padding-left: 18px;
+	_margin:5px 0;
+}
+.search_option .order .select_sort{
+	
+}
+.search_option .certified ,.search_option .certificate {
+	_margin:5px 0;
+    padding: 0 15px;
+	float:left;
+}
+.search_option .certified input,.search_option .certificate input{
+    vertical-align: text-top;
+	_vertical-align: text-bottom;
+}
+.search_option .sort_option{
+    float: right;
+    width: 108px;
+    height: 23px;
+    padding-right: 10px;
+}
+.search_option .sort_option a{
+    display: block;
+    width: 54px;
+    height: 23px;
+    float: left;
+	background: url("../images/sprite-for-list.gif") no-repeat 0 0;
+    overflow: hidden;
+    margin-top: 5px;
+    text-indent: -9999px;
+}
+.search_option .sort_option .bt_list:hover{
+	background-position:0 -23px;
+}
+.search_option .sort_option .bt_map{
+    background-position: -108px -23px;
+}
+/**/
+
+.course_list li:after{clear: both;
+    zoom: 1;
+    height: 0;
+    display: block;
+    content: "";
+}
+.course_list li {padding:10px 0;zoom:1;_height:1%}
+.c_item  .ls,.c_item  .cs{float:left;}
+.c_item  .ls .a_img {float:left;}
+.c_item  .ls .a_desc {margin-left: 95px;width: 245px;margin-right: 20px;}
+.c_item  .ls .a_desc p{padding-bottom:10px;}
+.c_item  .ls .a_desc p a {color:#009fe9;font-size:14px;}
+.c_item  .cs {font-size:12px;color:#555;}
+.c_item  .cs .p_t_16 {padding-top:16px;}
+.c_item  .cs .p_t_16  a{text-decoration:underline;}
+.c_item  .rs {float:right;}
+.c_item  .rs .hd  .want_study {
+    display: block;
+    width: 85px;
+    height: 15px;
+    padding-left: 25px;
+}
+.c_item  .rs .ht,.c_item  .rs .hd {background:url("../images/plus_icon.gif") no-repeat 2px 2px}
+.c_item  .rs .hd {margin:10px 0;}
+.c_item  .rs .passport {display:block;float:left;margin-right:5px;width:20px;height:20px;background:url("../images/spriteSection.gif") no-repeat 0 -56px;}
+.c_item  .rs .ht  a ,.c_item  .rs .hd  a {text-decoration:underline;color:#555;}
+.c_item  .p_icon {display:block;float:left;margin-top: 6px;margin-left: 8px;width:10px;height:10px;background:url("../images/spriteSection.gif") no-repeat -66px -66px;}
+.c_item  .c_price{color: #FF2900;font-weight: 800;}
+.c_item  .s_tel {display:block;float:left;width:30px;height:16px;background:url("../images/spriteSection.gif") no-repeat -26px -58px;}
+.c_item .fr {margin-right:32px;_margin-right: 15px;}
+/**/
+.userfeedback {font-size:14px;color:#3e3e3e;padding: 10px 0;}
+.userfeedback  a{color:#009fe9;padding: 0 5px;}
+/*pagenation*/
+.pagination {height:22px;margin-bottom:10px;margin-top: 10px;}
+.pagination-wrapper{float: left;margin-left: 70px;}
+
+.pagination  a{cursor:pointer;}
+
+.pagination .info,
+.pagination .start,
+.pagination .prev,
+.pagination .next,
+.pagination .end,
+.pagination .page,
+.pagination .skip-to,
+.pagination .data-limit{float:left;height:20px;margin-left:3px;line-height:20px;}
+
+.pagination .skip-to{margin-left:6px;}
+.pagination .skip-to input{width:32px;height:18px;margin:0 2px;line-height:20px;text-align:center;vertical-align:middle;border:1px solid #ccc;}
+.pagination .skip-to button{margin-left:2px;width:36px;height:21px;vertical-align:middle;cursor:pointer;border:1px solid #bad6ff;background:url(../images/bg-repeatx.png) repeat-x 0 -10px;font-size: 12px;line-height: 1.5;padding: 0;}
+
+.pagination .data-limit{margin-left:10px;}
+.pagination .data-limit select{margin-left:2px;vertical-align:middle;}
+
+.pagination  a{color: #F50;}
+.pagination  a:hover,
+.pagination  a:active{color:#f60;text-decoration:none;border:1px solid #f60;}
+
+.pagination span{color:#444;}
+
+.pagination .info{padding-top:1px;}
+
+.pagination .start,
+.pagination .prev,
+.pagination .next,
+.pagination .end,
+.pagination .page{padding:0 7px;border:1px solid #ccc;background:#fff url(../images/pagination.png) no-repeat 1000px 1000px;}
+.pagination span.page{color: #009fe9;border: 1px solid #CCC;background-color: #FFF;}
+
+.pagination .start,
+.pagination .prev{width:6px;overflow:hidden;line-height:1000px;}
+.pagination .next,
+.pagination .end{padding-right:14px;}
+.pagination span.start{background-position:0 -144px;}
+.pagination a.start{background-position:0 -114px;}
+.pagination span.prev{background-position:0 -24px;}
+.pagination a.prev{background-position:0 6px;}
+.pagination span.next{background-position:100% -84px;}
+.pagination a.next{background-position:100% -54px;}
+.pagination span.end{background-position:100% -204px;}
+.pagination a.end{background-position:100% -174px;}
+/*rs*/
+.r_box {border:1px solid #b9b9b9;margin-top: 10px;}
+.r_box h3 {padding:5px 0 0 10px;color:#3e3e3e;font-size:16px;}
+.r_box  .t_title{width:222px;height:33px;background:url("../images/spriteSection.gif") repeat-x 0 0;}
+.r_box .t_desc .txtDesc  a{color:#0092d2;}
+.r_box .t_desc .txtDesc .rate {width:62px;height:12px;background:url("../images/spriteSection.gif") no-repeat 0 -38px;float: left;margin-top: 5px;}
+.r_box .t_desc .txtDesc .care{float:left;margin-top: 5px;}
+.r_box .agencyList  li{padding:5px 15px 5px;}
+.r_box .t_desc {margin-top:10px;margin-bottom:10px;height: 94px;overflow: hidden;border-bottom:1px dashed #ccc;padding-bottom:10px;}
+.r_box .t_desc .photo {float: left;width: 86px;margin-right: 5px;margin-left: 8px;}
+.r_box .t_desc .txtDesc {float: left;margin: 0;width: 50%;}
+.r_box .t_desc .txtDesc  a{color:#0092d2;}
+.r_box .t_desc .txtDesc .rate {display:block;width:62px;height:12px;background:url("../images/spriteSection.gif") no-repeat 0 -38px;float: left;margin-top: 5px;}
+.r_box .t_desc .txtDesc .care{float:none;clear:left;margin-top: 5px;}
+.r_box .t_desc  img{width:86px;}

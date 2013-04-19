@@ -1,0 +1,89 @@
+/*detail*/
+.detail .main-wrap {margin:0 234px 0 0;}
+.detail .col-extra {margin-left:-224px;width:224px;}
+.crumbs {margin: 10px 0;height: 18px;line-height: 18px;}
+.crumbs a ,.crumbs span{float:left;}
+.crumbs a {margin-right: 4px;padding: 0 10px 0 0;background: url("../images/crumbs.gif") no-repeat 100% 50%;}
+.detail h3 {font-size:2em;}
+.location  {padding:10px 0;border-bottom:1px dashed #ccc;}
+.location  span{color:#009fe9;line-height:20px;font-size:14px;}
+.more_detail {padding-top:5px;}
+.more_detail span,.more_detail a {color:#009fe9;}
+.tab_course {margin:10px 0;}
+.tab_course .titleBar {position:relative;z-index:10;height: 25px;zoom:1}
+.tab_course .tab_list {margin-left:20px;height:25px;line-height:25px;border-left: 1px solid #009fe9;}
+.tab_course .tab_list li{border: 1px solid #009fe9;float: left;text-align: center;margin-left: -1px;cursor: pointer;width:100px;margin-right:10px;background: #F5FAFD;}
+.tab_course .tab_list li a {display:block;}
+.tab_course .tab_list li.on {width: 100px;float: left;text-align: center;background: white;border-bottom:1px solid white;}
+.tab_course .tab_course_container {position:relative;z-index:5;margin-top: 1px;padding-top:20px;border-top: 1px solid #009FE9;_margin-top:-1px;}
+.tab_course .tab_course_container table {width:100%;border:1px solid #efefef;}
+.tab_course .tab_course_container table td {padding:8px 5px;border:1px solid #efefef;}
+.tab_course .tab_course_container table .txt_blue {text-align:center;color:#009fe9;background:#f8f8f8;}
+.tab_course .tab_course_container table .txt_red{color:#ff2a4d;font-weight:bold;}
+.tab_course .tab_course_container .i_want_study {display:block;float:right;margin-top:10px;}
+/**/
+.head_titleBar i{display: block;margin: 8px 5px;width: 5px;height: 15px;background:#009fe9;float: left;}
+.head_titleBar {width:100%;margin-bottom: 10px;background:#f1f1f1;height:33px;line-height:33px;border-bottom:1px solid #009fe9;zoom:1;}
+.head_titleBar h3 {float:left;color:#3e3e3e;font-size:14px;}
+.head_titleBar h3  span{color:#a5a4a4;font-weight:400;}
+.course_desc  p {line-height:1.8;font-size:14px;color:#3e3e3e;margin-bottom:10px;}
+.impression  .head_titleBar{height: 32px;margin-bottom: 10px;padding: 1px;border: 1px solid #E4E4E4;overflow: hidden;}
+.impression  .innerWrap {clear: both;height: 32px;padding: 0 10px;line-height: 32px;background:url("../images/spriteSection.gif") repeat-x 0 0;}
+.impression  .innerWrap  h3 {float:left;color: #3E3E3E;font-size: 16px;}
+.impression  .innerWrap .sorting {float:right;margin-right:20px;_margin-top:5px;}
+.impression .box_list {margin-bottom: 15px}
+.impression .box_list .content_list_item{position: relative;width: 736px;float: left;margin-bottom: 25px;}
+.impression .box_list:after ,.impression .box_list .content_list_item:after{content:"\0020";display:block;height:0;clear:both;}
+.impression .box_list li {zoom:1;}
+.impression .box_list .content_list_item .thumb  img{float: left;width: 48px;height: 48px;margin-right: 5px;}
+.impression .box_list .content_list_item .content {float:left;width:683px;}
+.content .rating {float: left;width: 64px;height: 12px;margin: 10px 0 10px 8px;background: url("../images/spriteSection.gif") 0 -38px no-repeat;overflow: hidden;}
+.content .user_info a{margin: 0 5px 0 6px;padding: 0 1px;}
+.content .user_info{padding: 4px 0 2px 8px;background: #F3F3F3;color: #DEDEDE;}
+.content .user_info a {color: #66c;margin:0;padding:0;}
+.content .comment_entry{clear:left;margin: 0 0 15px;padding-left: 8px;}
+.content .other_info {margin-left:8px;}
+.content .other_info a {color: #66C;margin: 0 5px 0 6px;padding: 0 1px;}
+.content .other_info  .time {margin-right: 5px;color: #999;}
+.content .other_info .shop_name {display: inline;margin: 0 5px 0 6px;color: #999;}
+/*summary*/
+.summary .head_titleBar h3  span {color:#fe4700;}
+.summary .summary_table{margin: 0 10px 0;width: 90%;}
+.summary .summary_table td{padding: 5px 0;}
+.summary .summary_table .text{text-align: right;width: 12%;}
+.summary .summary_table  span{color: #fe6900;padding: 0 5px 0 0;}
+.textarea_box {width: 100%;}
+.textarea_box  p{color: #fe4700;}
+.textarea_box  textarea{width: 100%;}
+.textarea_box  .submit_area {clear: both;zoom: 1;margin-top: 10px;}
+.textarea_box  .submit_area .ui_button{width: 130px;height: 30px;line-height: 30px;text-align: center;background: #f3f3f3;border-radius: 1px;border: 1px solid #d3d3d3;float: left;cursor: pointer;}
+.textarea_box  .submit_area .ui_button a {color: #2970A4;}
+.textarea_box  .submit_area .translate {float: left;margin: 10px 0 0 10px;}
+.textarea_box  .submit_area .translate span img{vertical-align: text-bottom;}
+/*rs*/
+.r_box {border:1px solid #b9b9b9;margin-top: 10px;}
+.r_box h3 {padding:5px 0 0 10px;color:#3e3e3e;font-size:16px;}
+.r_box  .t_title{width:222px;height:33px;background:url("../images/spriteSection.gif") repeat-x 0 0;}
+.r_box .img_list li {float: left;_display:inline;margin: 5px 10px 5px 10px;width: 4.5em;overflow: hidden;}
+.r_box .img_list li .m_name{height:18px;overflow:hidden;}
+.r_box .img_list li .m_name a{color:#369;}
+.r_box .img_list img {width: 48px;}
+.google_map{margin-top: 10px;}
+.ad_area{margin-top: 10px;}
+.google_map img,.ad_area img {width:224px;}
+.r_box .more_member{padding: 10px 0;text-align: right;margin-right: 10px;}
+.r_box .t_desc .txtDesc  a{color:#0092d2;}
+.r_box .t_desc .txtDesc .rate {width:62px;height:12px;background:url("../images/spriteSection.gif") no-repeat 0 -38px;float: left;margin-top: 5px;}
+.r_box .t_desc .txtDesc .care{float:left;margin-top: 5px;}
+.r_box .agencyList  li{padding:5px 15px 5px;}
+.r_box .t_desc {margin-top:10px;margin-bottom:10px;height: 94px;overflow: hidden;border-bottom:1px dashed #ccc;padding-bottom:10px;}
+.r_box .t_desc .photo {float: left;width: 86px;margin-right: 5px;margin-left: 8px;}
+.r_box .t_desc .txtDesc {float: left;margin: 0;width: 50%;}
+.r_box .t_desc .txtDesc  a{color:#0092d2;}
+.r_box .t_desc .txtDesc .rate {display:block;width:62px;height:12px;background:url("../images/spriteSection.gif") no-repeat 0 -38px;float: left;margin-top: 5px;}
+.r_box .t_desc .txtDesc .care{float:none;clear:left;margin-top: 5px;}
+.r_box .t_desc  img{width:86px;}
+.department {padding-left: 5%;}
+.department  .area{float:left;width:85%;padding: 0 10px 10px;text-align: left;}
+
+
